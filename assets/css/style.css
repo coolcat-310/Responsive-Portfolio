@@ -1,0 +1,444 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+    box-sizing: border-box;
+    /*text-align: center;*/
+}
+
+
+body {
+<<<<<<< HEAD
+    font-size: 24px;
+    width: 960px;
+=======
+    font-size: 21px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+>>>>>>> 752b1e8cdd456cb2f526350cfaf0c464ac8d1719
+
+h4{
+    color: #777777;
+    margin-bottom: 5px;
+}
+
+header {
+    clear: both;
+    padding: 34px;
+<<<<<<< HEAD
+
+    height: 20px;
+=======
+>>>>>>> 752b1e8cdd456cb2f526350cfaf0c464ac8d1719
+    color: #333;
+    background: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #cccccc;
+    top: 0;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    color: #666;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 608px;
+    height: 35px;
+    color: #666;
+}
+
+p {
+    color: #666;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {padding: 10px 24px;}
+
+#heading {
+    text-align: left;
+    padding: 20px;
+    background-color: #4aaaa5;
+    float: left;
+    color:white;
+    position: absolute;
+    top: 0px;
+    font-size: 30px;
+}
+
+#headingTwo{
+    float: right;
+    text-align: right;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    left: 670px;
+    font-size: 18px;
+    margin-right: 40px;
+    color: #777777;
+    position: absolute;
+    top: 0px;
+
+}
+.boxhead a {
+    text-decoration: none;
+    color: #777777;
+<<<<<<< HEAD
+    padding-right: 10px;
+
+}
+=======
+}
+
+>>>>>>> 752b1e8cdd456cb2f526350cfaf0c464ac8d1719
+
+
+#full {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    border-bottom: 5px solid #4aaaa5;
+<<<<<<< HEAD
+    margin-bottom: 0;
+    background-image: url("../images/seigaiha.png");
+}
+
+#division {
+    float: left;
+    background-color: white;
+    color: #4aaaa5;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    height: 120px;
+    width: 250px;
+=======
+    margin-bottom: 0px;
+}
+
+#division {
+    text-align: center;
+    background-color: white;
+    color: #4aaaa5;
+    padding: 20px;
+    float: left;
+    margin-left: 20px;
+    height: 140px;
+    width: 270px;
+>>>>>>> 752b1e8cdd456cb2f526350cfaf0c464ac8d1719
+}
+
+#miniHeader{
+    border-bottom: 1px solid #777777 ;
+    padding-bottom: 10px;
+}
+
+#miniHeader2 {
+    border-bottom: 1px solid #777777 ;
+    padding-top: 3px;
+    padding-bottom: 13px;
+    text-align: left;
+    color: #4aaaa5;
+
+}
+
+#banner {
+    z-index: 1;
+    float: left;
+    margin-top: 80px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 30px;
+}
+
+#github{
+    padding-top: 7px;
+    float: left;
+    width: 33%;
+}
+
+#linkedin{
+    padding-top: 5px;
+    float: left;
+    width: 33%;
+}
+
+#stackOverflow{
+    padding-top: 7px;
+    float: left;
+    width: 33%;
+}
+
+#photos {
+    float: left;
+<<<<<<< HEAD
+    margin-top: 20px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/hangman.jpg");
+}
+
+#caption{
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+
+#photos2 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/rpg.jpg");
+}
+
+#caption2{
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+#photos3 {
+    float: left;
+    margin-top: 20px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/rps.jpg");
+}
+
+#caption3{
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+
+#photos4 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/rug.jpg");
+}
+
+#caption4 {
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+
+#photos5 {
+    float: left;
+    margin-top: 20px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/trivia.jpg");
+}
+
+#caption5 {
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+#application{
+    margin-top: 20px;
+    text-align: left;
+    float: left;
+    color: #888
+}
+#sloth{
+    float: left;
+    margin: 20px 20px 20px 0;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/sloth.jpg");
+=======
+    margin-top: 40px;
+    z-index: 0;
+    height: 200px;
+    width: 300px;
+    background-image:url("../images/hangman.jpg");
+}
+#photos6 {
+    float: left;
+    margin-top: 40px;
+    z-index: 0;
+    height: 200px;
+    width: 300px;
+    background-image:url("../images/bird3 (1).jpg");
+    margin-bottom: 5px;
+}
+
+p {
+    float: left;
+    width: 45%;
+    margin-top: 40px;
+    margin-left: 25px ;
+    color:#777777;
+    background-color: white;
+}
+#special{
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 0px;
+}
+
+#photos2 {
+    float: right;
+    margin-top: 40px;
+    z-index: 0;
+    height: 200px;
+    width: 300px;
+    background-image:url("../images/rpg.jpg");
+}
+
+#text {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 110px;
+    padding: 20px;
+}
+#text2 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 110px;
+    padding: 20px;
+}
+
+#photo3 {
+    float: left;
+    margin-top: 40px;
+    z-index: 0;
+    height: 200px;
+    width: 300px;
+    background-image:url("../images/trivia.jpeg");
+}
+
+#text3 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 110px;
+    padding: 20px;
+}
+
+#photo4{
+    float: right;
+    margin-top: 40px;
+    z-index: 0;
+    height: 200px;
+    width: 300px;
+    background-image:url("../images/rudge.jpg");
+}
+
+#text4 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 110px;
+    padding: 20px;
+}
+
+#photo5 {
+    float: left;
+    margin-top: 40px;
+    z-index: 0;
+    height: 200px;
+    width: 300px;
+    background-image:url("../images/rps.jpg");
+}
+
+#text5 {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 110px;
+    padding: 20px;
+}
+
+#myForm {
+
+    text-align: left;
+
+}
+#box {
+    clear: both;
+    width: 500px;
+>>>>>>> 752b1e8cdd456cb2f526350cfaf0c464ac8d1719
+}
+
+aside {
+    background-color: #fff;
+<<<<<<< HEAD
+    width:640px;
+    height: 740px;
+=======
+    width:650px;
+    height: 800px;
+>>>>>>> 752b1e8cdd456cb2f526350cfaf0c464ac8d1719
+    border: 1px solid #fff;
+    padding: 15px;
+    float: left;
+    margin-left: 17px;
+<<<<<<< HEAD
+    margin-right: 3px;
+=======
+
+}
+
+#shorter{
+    height: 530px;
+>>>>>>> 752b1e8cdd456cb2f526350cfaf0c464ac8d1719
+}
+
+
+
+footer {
+    clear: both;
+    background-color: #666666;
+<<<<<<< HEAD
+    padding: 20px;
+    color:#888;
+    font-size: x-small;
+=======
+    padding: 40px;
+    margin-top: 0;
+    color: #cccccc;
+    font-size: x-small;
+    text-align: center;
+}
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+>>>>>>> 752b1e8cdd456cb2f526350cfaf0c464ac8d1719
+}
