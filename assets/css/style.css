@@ -270,7 +270,9 @@ input[type=submit] {
         float: left;
         width: 640px;
         /*text-align: center;*/
-
+    }
+    .work{
+        width: 100%;
     }
     #logo{
         width: 100%;
